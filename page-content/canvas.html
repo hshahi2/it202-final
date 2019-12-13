@@ -1,0 +1,28 @@
+
+<canvas id="myCanvas" width="200" height="100">
+    <script>
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "blue";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        
+                
+
+ var canvas2 = document.getElementById('myCanvas');
+      var context = canvas2.getContext('2d');
+      var centerX = canvas2.width / 2;
+      var centerY = canvas2.height / 2;
+      var radius = 70;
+
+      context.beginPath();
+      context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+      context.fillStyle = 'red';
+      context.fill();
+      context.lineWidth = 5;
+      context.strokeStyle = 'red';
+      context.stroke();
+        
+        
+    </script>
+    
+</canvas>
